@@ -1,0 +1,803 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TeX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \documentclass[a4paper,10pt,oneside]{article}
+\documentclass[letterpaper,10pt,oneside]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TYPESETTING OPTIONS.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\TypesetInNonStopMode}{1}
+\newcommand{\TypesetInDraftMode}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Milosz Kowal}
+\newcommand{\CVTitle}{Milosz Kowal Resume}
+\newcommand{\CVNote}{Resume compiled on {\today}}
+\newcommand{\CVWebpage}{https://miloszkowal.com}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+bookmarks=true,
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{\CVAuthor}
+
+\begin{subtitle}
+%\href{https://goo.gl/maps/nvgKtniZiYF2}
+%{558A Kingston Ave, Apt 4A, Brooklyn, NY 11203}
+\par
+\href{mailto:me@miloszkowal.com}
+{me@miloszkowal.com}
+\,\SubBulletSymbol\,
++1\,(630)\,447-0764
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{miloszkowal.com}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+\href{http://www.trincoll.edu}
+{\textbf{Trinity College}},
+Hartford, Connecticut
+\hfill
+\DatestampYMD{2014}{08}{01} --
+\DatestampYMD{2018}{05}{20}
+
+\GapNoBreak
+\BulletItem
+Bachelor of Science (B.S.) in
+%\href{http://www.example.com/my-department}
+{Mathematics, Theater and Dance, GPA: 3.7/4.0}
+\begin{detail}
+\SubBulletItem
+Relevant Coursework: Basic Economic Principles, Analysis, Differential Equations, Chaos Theory
+\SubBulletItem
+Honors and Awards: \textit{cum laude}, Pi Mu Epsilon Inductee (Spring 2018)
+%\SubBulletItem
+%Thesis:
+%\href{http://www.example.com/my-phd-thesis}
+%{A Statistical Approach to Quantifying Climate Change}
+%\SubBulletItem
+%Adviser:
+%Professor Mary Sandoval
+%\SubBulletItem
+%Research areas:
+%Climate change, metrology, lasers, statistics.
+\end{detail}
+
+%\GapNoBreak
+%\BulletItem
+%Master of Business Administration (M.B.A.)
+%\hfill
+%\DatestampYMD{2008}{11}{15} --
+%\DatestampYMD{2009}{06}{15}
+
+%\GapNoBreak
+%\BulletItem
+%Bachelor of Arts (B.A.) in
+%\href{http://www.example.com/my-department}
+%{Theater and Dance}
+%\begin{detail}
+%\SubBulletItem
+%Thesis: \textit{All I Ever Wanted}, an adaptation of the story of Adam and Eve.
+%\SubBulletItem
+%Adviser:
+%Professor Mitchell Polin
+%\SubBulletItem
+%Concentration:
+%Media and Performance
+%\end{detail}
+%\hfill
+%\DatestampYMD{2006}{08}{15} --
+%\DatestampYMD{2008}{08}{15}
+%\begin{detail}
+%\GapNoBreak
+%\BulletItem
+%Cumulative GPA: 3.7 / 4.0
+%\end{detail}
+
+%\begin{comment}
+\BigGap
+\href{http://www.imsa.edu}
+{\textbf{Illinois Mathematics and Science Academy}},
+Aurora, Illinois
+\hfill
+\DatestampYMD{2011}{09}{01} --
+\DatestampYMD{2014}{05}{01}
+%\end{comment}
+\GapNoBreak
+\BulletItem
+Received diploma.
+%\begin{detail}
+%\SubBulletItem
+%Graduated with College Honors.
+%\SubBulletItem
+%Cumulative GPA: 3.96 / 4.00
+%\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+
+\section
+{Research Experience}
+{Research Experience}
+{PDF:ResearchExperience}
+
+\href{http://www.example.com/my-institute}
+{\textbf{Institute for Advanced Research}},
+Science College
+
+\GapNoBreak
+\BulletItem
+Undergraduate Research Student, Science Department
+\hfill
+\DatestampYMD{2004}{05}{15} --
+\DatestampYMD{2005}{05}{15}
+\begin{detail}
+\SubBulletItem
+Project:
+Investigations on the Use of Lasers to Measure Climate Change
+\SubBulletItem
+Supervisors:
+Professor Jane Citizen and
+Dr Ann Yone
+\SubBulletItem
+Research areas:
+Climate change, lasers, statistical analysis, data analytics.
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
+
+\section
+{Publications}
+{Publications}
+{PDF:Publications}
+
+\subsection
+{Journals}
+{Journals}
+{PDF:Journals}
+
+\GapNoBreak
+\NumberedItem{[11]}
+\href{http://www.example.com/my-paper-doi-5}
+{\underline{J.~Doe}, J.~Citizen, and A.~Yone,
+``On lasers and climate change,''
+\textit{Journal of Science},
+vol.~89,
+no.~2,
+pp.~4123--4133,
+\DatestampYM{2008}{02}.}
+
+% Note the use of {\CharSpace} for aligning shorter numbers.
+\Gap
+\NumberedItem{{\CharSpace}[1]}
+\href{http://www.example.com/my-paper-doi-4}
+{\underline{J.~Doe} and J.~Citizen,
+``Measuring the extent of climate change,''
+\textit{Global Scientific Journal},
+vol.~12,
+no.~4,
+pp.~330--352,
+\DatestampYM{2006}{12}.}
+
+\BigGap
+\subsection
+{Conferences}
+{Conferences}
+{PDF:Conferences}
+
+\GapNoBreak
+\NumberedItem{[11]}
+\href{http://www.example.com/my-paper-doi-3}
+{\underline{J.~Doe}, J.~Citizen, and A.~Yone,
+``On lasers and climate change,''
+in \textit{Proceedings of the Laser Symposium},
+Las Vegas, Nevada, USA,
+\DatestampYM{2007}{01}.}
+
+\Gap
+\NumberedItem{[10]}
+\href{http://www.example.com/my-paper-doi-2}
+{A.~Yone and \underline{J.~Doe},
+``Climate change and general relativity,''
+in \textit{Proceedings of the International Astronomical Conference},
+Sydney, Australia,
+\DatestampYM{2006}{8}.}
+
+% Note the use of {\CharSpace} for aligning shorter numbers.
+\Gap
+\NumberedItem{{\CharSpace}[1]}
+\href{http://www.example.com/my-paper-doi-1}
+{\underline{J.~Doe} and J.~Citizen,
+``Measuring the extent of climate change,''
+in \textit{Proceedings of the International Climate Change Conference},
+London, UK,
+\DatestampYM{2005}{11}.}
+
+%%%%%%%%%%%%%%%%%%%%%
+%% ACADEMIC AWARDS %%
+%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Academic Awards}
+{Academic Awards}
+{PDF:AcademicAwards}
+
+\BulletItem
+Dean's List,
+Fall 2002 through Spring 2005,
+Science College
+\hfill
+\DatestampY{2002} --
+\DatestampY{2005}
+\begin{detail}
+\SubItem
+For attaining a semester GPA of at least 3.75.
+\end{detail}
+
+\Gap
+\BulletItem
+Undergraduate Researcher Award,
+Science College
+\hfill
+\DatestampYMD{2005}{05}{15}
+\begin{detail}
+\SubItem
+For outstanding scientific contributions in the fields of lasers and climate change.
+\end{detail}
+
+\Gap
+\BulletItem
+International Science Scholarship,
+\hfill
+\DatestampYMD{2001}{12}{10}
+\newline
+Global Science, Technology, Engineering, and Mathematics Foundation
+\begin{detail}
+\SubItem
+Full-tuition scholarship with stipend for undergraduate studies.
+One of 42 awardees in the world.
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%
+%% OTHER AWARDS %%
+%%%%%%%%%%%%%%%%%%
+
+\section
+{Other Awards}
+{Other Awards}
+{PDF:OtherAwards}
+
+\BulletItem
+Chess Tournament,
+First Prize,
+First American University
+\hfill
+\DatestampYMD{2007}{03}{10}
+\begin{detail}
+\SubItem
+Awarded at the Tenth Annual Chess Tournament held during Alumni Weekend.
+\end{detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PROFESSIONAL AFFILIATIONS & ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Professional Affiliations\newline
+\& Activities}
+{Professional Affiliations \& Activities}
+{PDF:ProfessionalAffiliationsActivities}
+
+\href{http://www.example.com/my-society}
+{\textbf{Society of Professional Earth Scientists}},
+New York, USA
+
+\GapNoBreak
+\BulletItem
+Member
+\hfill
+\DatestampY{2009} --
+Present
+
+\end{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% OTHER WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\hrulefill
+\section
+{Work\newline
+Experience}
+{Other Work Experience}
+{PDF:WorkExperience}
+
+\href{http://www.moodys.com}
+{\textbf{Moody's Corporation}},
+New York City, New York
+\hfill
+\DatestampYMD{2018}{07}{30} --
+%\DatestampYMD{2018}{05}{18}
+Present
+
+\GapNoBreak
+\BulletItem
+Business Analyst
+\begin{detail}
+\SubBulletItem
+Conduct end-to-end analysis for product and initiatives with respect to data requirements, data flows, data modeling, workflow context and design, and user interface designs.
+\SubBulletItem
+Author thorough, detailed, high-quality documentation of all aspects of the systems in question, including business requirements, functional requirements, use cases, and Business System Concept documents.
+\SubBulletItem
+Design highly usable interaction models and screens for entirely new or substantially re-imagined applications using InVision and Adobe XD.
+\end{detail}
+
+\begin{comment}
+\BigGapNoBreak
+{\textbf{Trinity College Office of Enrollment}},
+Hartford, Connecticut
+\hfill
+\DatestampYMD{2017}{08}{21} --
+\DatestampYMD{2018}{05}{18}
+
+
+\GapNoBreak
+\BulletItem
+Student Admissions Associate
+\begin{detail}
+\SubBulletItem
+Conducted interviews with over 50 high school students, evaluating their standing as applicants, which resulted in 11 admitted students for the Class of 2022.
+\SubBulletItem
+Submitted written evaluations on each applicant to be added to applicant’s file.
+\SubBulletItem
+Led weekly group information sessions for prospective students, families, and admissions visitors.
+\SubBulletItem
+Participated in on-campus recruitment events, such as panels, special programs, and other projects.
+\end{detail}
+\end{comment}
+
+\BigGapNoBreak
+\href{http://www.trincoll.edu}
+{\textbf{Trinity College Information Technology Services}},
+Hartford, Connecticut
+\hfill
+\DatestampYMD{2014}{09}{15} --
+\DatestampYMD{2018}{05}{11}
+
+\GapNoBreak
+\BulletItem
+Head Consultant
+\begin{detail}
+\SubBulletItem
+Trained and evaluated over 15 new employees, analyzing performance trends using Crystal Reports.
+\SubBulletItem
+Provided support on over 4,900 service requests, logging all details in SolarWinds Web Helpdesk.
+\SubBulletItem
+Drafted script to automate process within network infrastructure, resulting in substantial decreases in service requests related to that issue.
+\SubBulletItem
+Maintained audiovisual equipment in classrooms.
+\end{detail}
+
+\BigGapNoBreak
+{\textbf{Navier, Inc.}},
+Chicago, Illinois
+\hfill
+\DatestampYMD{2012}{06}{15} --
+\DatestampYMD{2013}{12}{01}
+
+\GapNoBreak
+\BulletItem
+User Interface and Experience Design Lead
+%Information Technology Services
+\begin{detail}
+\SubBulletItem
+Created platform enabling web developers to interact with consumers to improve prototype versions of apps.
+\SubBulletItem
+Utilized AngularJS, CSS3, and HTML5 in constructing front-end interface for customer-facing products.
+%\SubBulletItem
+%Researched leading design trends, including Material Design and LessCSS.
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% CAMPUS ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\hrulefill
+\section
+{Campus Activities}
+{Campus Activities}
+{PDF:CampusActivities}
+
+\href{http://commons.trincoll.edu/tcsp}
+{\textbf{Trinity College Student Photographers (TCSP)}},
+Trinity College
+\hfill
+\DatestampYMD{2015}{10}{01} --
+\DatestampYMD{2018}{01}{01}
+
+\GapNoBreak
+\BulletItem
+Founder, Chief Executive Officer
+\begin{detail}
+\SubBulletItem
+Employed 20 students, establishing TCSP as a premier employment opportunity for the Trinity community.
+\SubBulletItem
+Provided photography and event coverage services for over 70 events on campus, providing deliverables for each event within 24 hours.
+\SubBulletItem
+Managed social media accounts using Hootsuite, Mailchimp, and Later, with collective following of over 200.
+\end{detail}
+
+\BigGapNoBreak
+\href{http://commons.trincoll.edu/tripod}
+{\textbf{Trinity Tripod}},
+Trinity College
+\hfill
+\DatestampYMD{2017}{08}{01} --
+\DatestampYMD{2018}{01}{01}
+
+\GapNoBreak
+\BulletItem
+Photography Editor
+\begin{detail}
+\SubBulletItem
+Collaborated with Trinity College Student Photographers to provide photographic content for weekly paper.
+\SubBulletItem
+Delivered hundreds of images for a variety of different stories, including custom stock imagery.
+\SubBulletItem
+Developed automated system for photo captioning using EXIF data, extracted using Adobe InDesign, resulting in 75\% time decrease when formatting images.
+\end{detail}
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\noindent\hrulefill
+\section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+English (fluent), Polish (native), French (intermediate).
+
+\begin{comment}
+\BulletItem
+English: Fluent (speaking, reading, writing).
+
+\GapNoBreak
+\BulletItem
+Polish: Native language.
+
+\GapNoBreak
+\BulletItem
+French: Intermediate (speaking, reading, writing).
+\end{comment}
+
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+Programming: R, PHP, mySQL, Python, HTML5, CSS3, \LaTeX \hfill\break
+Software: Adobe Photoshop, Microsoft Office, Matlab, Mathematica, Tableau, Oracle SQL Developer\hfill\break
+Certifications: Bloomberg Market Concepts, Google Analytics
+
+%Google Analytics, {\LaTeX}, R, Matlab, Mathematica, Adobe Creative Cloud, Microsoft Office, PHP, mySQL, HTML5, CSS3, WordPress, Squarespace, Slate.
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+Editorial photography, works of Fyodor Dostoevsky, podcast production, applied mathematics.
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\begin{comment}
+\section
+{References}
+{References}
+{PDF:References}
+
+Available upon request.
+\end{comment}
+
+
+\begin{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SECTION WITH USAGE EXAMPLES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Section\newline
+With\newline
+Usage\newline
+Examples}
+{Section With Usage Examples (For PDF Bookmark)}
+{PDF:SectionWithUsageExamples:ForPDFLink}
+
+\subsection
+{This is a Subsection}
+{This is a Subsection}
+{PDF:ThisIsASubSection}
+
+\GapNoBreak
+\BulletItem
+Use \CodeCommand{section} and \CodeCommand{subsection} to create sections and subsections.
+These will appear in the PDF bookmarks too.
+
+\GapNoBreak
+\BulletItem
+This is the second \CodeCommand{BulletItem}.
+Long items are automatically indented.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed sed aliquam massa.
+\begin{detail}
+\SubBulletItem
+This is a \CodeCommand{SubBulletItem}.
+Long items are automatically indented.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed sed aliquam massa.
+Aliquam dignissim mi non enim feugiat elementum.
+Donec sit amet turpis ac velit ultrices volutpat.
+Aliquam vitae elit massa.
+\SubBulletItem
+This is the second \CodeCommand{SubBulletItem}.
+\SubBulletItem
+The \CodeCommand{SubBulletItem}'s are between
+\CodeCommand{begin\{detail\}} and
+\CodeCommand{end\{detail\}} so that they are typeset in a smaller font.
+\end{detail}
+
+\Gap
+\BulletItem
+This is the third \CodeCommand{BulletItem}.
+
+\Gap
+\BulletItem
+A \CodeCommand{Gap} or \CodeCommand{GapNoBreak} is inserted between the \CodeCommand{BulletItem}'s so that there is a small vertical space between them.
+The ``NoBreak'' version prevents page breaking, and should be used to avoid orphaned headings and other formatting issues.
+
+\BigGap
+\subsection
+{This is the Second Subsection}
+{This is the Second Subsection}
+{PDF:ThisIsTheSecondSubSection}
+
+\GapNoBreak
+\BulletItem
+A \CodeCommand{BigGap} or \CodeCommand{BigGapNoBreak} is inserted between subsections so that there is a bigger vertical space between them.
+The ``NoBreak'' version prevents page breaking.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ANOTHER SECTION WITH USAGE EXAMPLES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Another\newline
+Section\newline
+With\newline
+Usage\newline
+Examples}
+{Another Section With Usage Examples (For PDF Bookmark)}
+{PDF:AnotherSectionWithUsageExamples:ForPDFLink}
+
+\textbf{This is a Plain Heading},
+followed by an \CodeCommand{hfill} and a date range
+\hfill
+\DatestampYM{2015}{10} --
+\DatestampYM{2015}{12}
+
+\GapNoBreak
+\BulletItem
+This is a \CodeCommand{BulletItem}.
+\begin{detail}
+\SubBulletItem
+This is a \CodeCommand{SubBulletItem}.
+\end{detail}
+
+\GapNoBreak
+\BulletItem
+This is a \CodeCommand{BulletItem}.
+\begin{detail}
+\SubItem
+This is a \CodeCommand{SubItem}, which has no bullet.
+Note the alignment with the \CodeCommand{BulletItem} above.
+\end{detail}
+
+\GapNoBreak
+\Item
+This is an \CodeCommand{Item}, which has no bullet.
+Note the alignment with the \CodeCommand{BulletItem} above.
+\begin{detail}
+\SubItem
+This is a \CodeCommand{SubItem}.
+\end{detail}
+
+\GapNoBreak
+\NumberedItem{[16]}
+This is a \CodeCommand{NumberedItem}.
+Note the alignment with the \CodeCommand{SubBulletItem} above.
+
+\GapNoBreak
+\NumberedItem{{\CharSpace}[6]}
+This is a \CodeCommand{NumberedItem} with a \CodeCommand{CharSpace} in its argument for padding shorter numbers.
+Note the alignment with the \CodeCommand{NumberedItem} above.
+
+\BigGap
+\textbf{Usage Notes}
+
+\GapNoBreak
+\BulletItem
+New Lines and Paragraphs
+\begin{detail}
+\SubBulletItem
+To create a new line within the same paragraph (i.e., with the same indentation), use \CodeCommand{newline} instead of \CodeCommand{\textbackslash}.
+The latter will not work because it breaks the long table.
+\SubBulletItem
+To create a new paragraph, use \CodeCommand{par} or simply leave an empty line.
+Paragraph indentations (from
+\CodeCommand{Item},
+\CodeCommand{SubItem},
+\CodeCommand{BulletItem},
+\CodeCommand{SubBulletItem},
+etc.) do not carry across different paragraphs.
+\end{detail}
+
+\Gap
+\BulletItem
+Vertical Spacing Between Items
+\begin{detail}
+\SubBulletItem
+Use \CodeCommand{Gap} or \CodeCommand{GapNoBreak} to insert a small vertical space between items within the same section.
+\SubBulletItem
+Use \CodeCommand{BigGap} or \CodeCommand{BigGapNoBreak} to insert a bigger vertical space between items within the same section.
+\SubBulletItem
+The ``NoBreak'' versions prevent page breaking.
+\end{detail}
+
+\Gap
+\BulletItem
+Dates
+\begin{detail}
+\SubBulletItem
+Use
+\CodeCommand{DatestampYMD\{YYYY\}\{MM\}\{DD\}},
+\CodeCommand{DatestampYM\{YYYY\}\{MM\}}, and
+\CodeCommand{DatestampY\{YYYY\}}
+to specify dates.
+\SubBulletItem
+Change the definition of \CodeCommand{DatestampFormatSelection} to adjust how dates are displayed throughout the document (e.g., ``\mbox{2010-12-31}'', ``\mbox{Dec 2010}'', ``\mbox{December 2010}'', ``\mbox{2010}'').
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MULTILINGUAL UNICODE EXAMPLES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Multilingual Unicode Examples}
+{Multilingual Unicode Examples}
+{PDF:MultilingualUnicodeExamples}
+
+\BulletItem
+Assortment of unicode characters from
+\href{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}
+{http://www.ltg.ed.ac.uk/{\TildeSymbol}richard/unicode-sample.html}
+
+\begin{detail}
+\SubItem
+\textbf{Latin Extended-A}
+Ā ā Ă ă Ą ą Ć ć Ĉ ĉ Ċ ċ Č č Ď ď Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ĝ ĝ Ğ ğ Ġ ġ Ģ ģ Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Ĭ ĭ Į į İ ı Ĳ ĳ Ĵ ĵ
+\textbf{Latin Extended-B}
+ƀ Ɓ Ƃ ƃ Ƅ ƅ Ɔ Ƈ ƈ Ɖ Ɗ Ƌ ƌ ƍ Ǝ Ə Ɛ Ƒ ƒ Ɠ Ɣ ƕ Ɩ Ɨ Ƙ ƙ ƚ ƛ Ɯ Ɲ ƞ Ɵ Ơ ơ Ƣ ƣ Ƥ ƥ Ʀ Ƨ ƨ Ʃ ƪ ƫ Ƭ ƭ Ʈ Ư ư Ʊ Ʋ Ƴ ƴ Ƶ
+\textbf{Latin Extended Additional}
+Ḁ ḁ Ḃ ḃ Ḅ ḅ Ḇ ḇ Ḉ ḉ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ḟ ḟ Ḡ ḡ Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ḭ ḭ Ḯ ḯ Ḱ ḱ Ḳ ḳ Ḵ ḵ
+\textbf{Greek}
+ʹ ͵ ͺ ; ΄ ΅ Ά · Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ
+\textbf{Cyrillic}
+Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з
+\textbf{Hebrew}
+א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ ֝ ֞ ֟ ֠ ֡ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֒ ֓ ֔
+\textbf{Armenian}
+{\UseSecondaryFont
+Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ՙ ՚ ՛ ՜ ՝ ՞ ՟ ա բ գ դ ե զ}
+\textbf{Thai}
+{\UseSecondaryFont
+ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ}
+\end{detail}
+
+\end{comment}
+\end{body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\begin{flushright}
+\UseNoteFont
+%[\textit{\CVNote}]
+\hspace{2.0mm}\null
+\end{flushright}
+%\label{LastPage}
+\end{document}
