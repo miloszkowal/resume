@@ -4,8 +4,8 @@
 
 ### Trinity College
 * Bachelor of Science (B.S.) in Mathematics and Theater, GPA: 3.7/4.0
-..* Relevant Coursework: Linear Algebra, Abstract Algebra, Analysis, Differential Equations, Chaos Theory
-..* Honors and Awards: _cum laude_, Pi Mu Epsilon Inductee (Spring 2018)
+    * Relevant Coursework: Linear Algebra, Abstract Algebra, Analysis, Differential Equations, Chaos Theory
+    * Honors and Awards: _cum laude_, Pi Mu Epsilon Inductee (Spring 2018)
 
 ### Illinois Mathematics and Science Academy
 * Received diploma.
