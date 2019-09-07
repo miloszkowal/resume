@@ -1,4 +1,7 @@
 # Milosz Kowal
+* Email: [me@miloszkowal.com](mailto:me@miloszkowal.com)
+* Phone: +1 (630) 447-0764
+* Website: [miloszkowal.com](https://miloszkowal.com)
 
 ## Education
 
@@ -18,7 +21,7 @@ July 2018 - July 2019
 #### Software Engineer
 * Implemented and maintained four APIs in Python, providing machine learning services in fuzzy matching, content summarization, thematic tagging, and written content review. Was deployed into production with over 2,000 research writers.
 * Wrote an automated test library for above APIs using PyTest and Jenkins, eliminating the need for manual qualitative testing, resulting in over 600 test cases. Reports were generated in Allure.
-* Designed high-level logic and process flow for caching and storing machine-generated text content, reducing retrieval time from O(n) time to O(1) time.
+* Designed high-level logic and process flow for caching and storing machine-generated text content, reducing retrieval time from _O(n)_ time to _O(1)_ time.
 
 ### Trinity College Information Technology Services
 September 2014 - May 2018
