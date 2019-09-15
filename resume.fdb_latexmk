@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1567797180 "resume.xdv" "resume.pdf" "resume" 1567797181
-  "resume.xdv" 1567797180 37620 dd26e2c4ff6600aa84da8ffc45d6dad6 "xelatex"
+["xdvipdfmx"] 1568506622 "resume.xdv" "resume.pdf" "resume" 1568506623
+  "resume.xdv" 1568506622 37704 2e7e37f075b6764ebfddaa80cd352cb7 "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1567797179 "resume.tex" "resume.xdv" "resume" 1567797181
-  "/dev/null" 1567797178 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1568506621 "resume.tex" "resume.xdv" "resume" 1568506623
+  "/dev/null" 1568506615 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -80,11 +80,11 @@
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1557342089 3751069 3e95e8a30a2d43fc44f2c90c78c41394 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "preamble.tex" 1567783040 9018 b72204e4ced5b251bcf27c9019d3d8e3 ""
-  "resume.aux" 1567797180 704 8c01c31a5f76d83d591fa3d42f25770e "xelatex"
-  "resume.out" 1567797180 468 794d5436283489b106b3daff23bb21d8 "xelatex"
-  "resume.tex" 1567797179 16166 4357c22c1198459d85779083afbacc1b ""
+  "resume.aux" 1568506622 704 8c01c31a5f76d83d591fa3d42f25770e "xelatex"
+  "resume.out" 1568506622 468 794d5436283489b106b3daff23bb21d8 "xelatex"
+  "resume.tex" 1568506618 9350 52585c001bb0d5316b3aea15577aeb6a ""
   (generated)
-  "resume.xdv"
-  "resume.log"
   "resume.aux"
+  "resume.log"
   "resume.out"
+  "resume.xdv"
