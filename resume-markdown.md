@@ -44,17 +44,11 @@ June 2012 - December 2013
 
 ### PyMessage - Analyzing iMessages using Python and NLTK
 
-* Constructed library that analyzes sentiment of 200K+ text messages using Python 3.7 and NLTK 3.4
-* Future improvements include construction of full API to analyze unstructured speech and sentence fragments.
-* Source code available on GitHub.
+Python and NLTK library for sentiment analysis of arbitrary strings of characters, pulled from over 200K text messages stored in a SQLite database locally on macOS. Publishes results in CSV format for ingestion into Tableau and other visualization programs.
 
-### Trinity College Student Photographers (TCSP)
-October 2015 - January 2018
+### Seshat
 
-#### Founder, Chief Executive Officer
-* Employed 20 students, establishing TCSP as a premier employment opportunity for Trinity students.
-* Provided photography and event coverage services for over 70 events on campus yearly, publishing deliverables for each event within 24 hours.
-* Managed social media accounts using Hootsuite, Mailchimp, and Later, with collective following of over 200.
+Full-stack application in Flask and Bootstrap that allows users to create personalized accounts and add books they have read. Provides statistics on book readership and stores all data in a SQLite database.
 
 ## Languages
 
