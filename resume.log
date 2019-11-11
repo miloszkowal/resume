@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  17 OCT 2019 09:49
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  11 NOV 2019 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -737,40 +737,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 71.
-LaTeX Font Info:    Calculating math sizes for size <8.8> on input line 159.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.4> not available
-(Font)              size <5> substituted on input line 159.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.4> not available
-(Font)              size <5> substituted on input line 159.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.8> on input line 159.
+(Font)              <7> on input line 103.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.15997> on input line 159.
+(Font)              <5> on input line 103.
+LaTeX Font Info:    Calculating math sizes for size <9.8> on input line 173.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.4> on input line 159.
+(Font)              <9.8> on input line 173.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.85997> on input line 173.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.9> on input line 173.
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.4> not available
-(Font)              size <5> substituted on input line 159.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
-[]|\TU/Tinos-Regular.ttf(0)/bx/n/9.2 SELECTED
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+[]|\TU/Tinos-Regular.ttf(0)/bx/n/10.2 SELECTED
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 313.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 313.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
 ! Undefined control sequence.
 \@oddfoot ->\FooterText 
                         
-l.352 \end{document}
+l.355 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -781,26 +768,21 @@ and I'll forget about whatever was undefined.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 352.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 794D5436283489B106B3DAFF23BB21D8.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.6pt have occurred.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
+(rerunfilecheck)             Checksum: 3FC595ABF953640537CFF7FC79EB016E.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 24454 strings out of 492916
- 454280 string characters out of 6133346
- 559344 words of memory out of 5000000
- 28346 multiletter control sequences out of 15000+600000
- 534729 words of font info for 57 fonts, out of 8000000 for 9000
+ 24442 strings out of 492916
+ 454172 string characters out of 6133346
+ 557345 words of memory out of 5000000
+ 28340 multiletter control sequences out of 15000+600000
+ 532906 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  42i,8n,67p,1041b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.xdv (1 page, 37664 bytes).
+Output written on resume.xdv (1 page, 34620 bytes).

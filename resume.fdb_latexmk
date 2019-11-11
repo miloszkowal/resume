@@ -1,19 +1,13 @@
 # Fdb version 3
-["xdvipdfmx"] 1571320149 "resume.xdv" "resume.pdf" "resume" 1571320149
-  "resume.xdv" 1571320149 37664 56333555e5709388245d0a33f404f592 "xelatex"
+["xdvipdfmx"] 1573497854 "resume.xdv" "resume.pdf" "resume" 1573497854
+  "resume.xdv" 1573497854 34620 dd60ae60793e552e70a3f17152172bbf "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1571320147 "resume.tex" "resume.xdv" "resume" 1571320149
-  "/dev/null" 1571320136 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1573497853 "resume.tex" "resume.xdv" "resume" 1573497854
+  "/dev/null" 1573497851 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1136768653 1524 d89e2d087a9828407a196f428428ef4a ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1136768653 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty" 1463608860 8237 3b62ef1f7e2c23a328c814b3893bc11f ""
   "/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty" 1536701967 185392 b99a6d53180e04300c35e18725f31231 ""
@@ -79,12 +73,12 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1557342089 3751069 3e95e8a30a2d43fc44f2c90c78c41394 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "preamble.tex" 1567783040 9018 b72204e4ced5b251bcf27c9019d3d8e3 ""
-  "resume.aux" 1571320149 704 8c01c31a5f76d83d591fa3d42f25770e "xelatex"
-  "resume.out" 1571320149 468 794d5436283489b106b3daff23bb21d8 "xelatex"
-  "resume.tex" 1571320125 9346 f7277f30bb962694f3bcefbac245a1d2 ""
+  "preamble.tex" 1572454808 9019 e9c17f6890dfe7824a208d2b0a9e4d51 ""
+  "resume.aux" 1573497854 704 8c01c31a5f76d83d591fa3d42f25770e "xelatex"
+  "resume.out" 1573497854 468 3fc595abf953640537cff7fc79eb016e "xelatex"
+  "resume.tex" 1573497851 9629 50e2995834d378c22df18a38650ffd32 ""
   (generated)
   "resume.xdv"
-  "resume.aux"
-  "resume.out"
   "resume.log"
+  "resume.out"
+  "resume.aux"
