@@ -42,11 +42,11 @@ June 2012 - December 2013
 
 ## Selected Projects
 
-### PyMessage - Analyzing iMessages using Python and NLTK
+### PyMessage | NLTK, SQLite, Tableau
 
 Python and NLTK library for sentiment analysis of arbitrary strings of characters, pulled from over 200K text messages stored in a SQLite database locally on macOS. Publishes results in CSV format for ingestion into Tableau and other visualization programs.
 
-### Seshat
+### Seshat | Flask, Bootstrap, PostgreSQL, ElasticSearch, Heroku
 
 Full-stack application in Flask and Bootstrap that allows users to create personalized accounts and add books they have read. Provides statistics on book readership and stores all data in a SQLite database.
 
