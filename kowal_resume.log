@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  22 NOV 2019 07:55
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  25 NOV 2019 07:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,13 +742,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 103.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 103.
-LaTeX Font Info:    Calculating math sizes for size <9.8> on input line 173.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.8> on input line 173.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.85997> on input line 173.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.9> on input line 173.
 
 Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\TU/Tinos-Regular.ttf(0)/bx/n/10.2 SELECTED
@@ -778,12 +771,12 @@ Package rerunfilecheck Info: File `kowal_resume.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 24442 strings out of 492916
- 454250 string characters out of 6133346
+ 24425 strings out of 492916
+ 453776 string characters out of 6133346
  557423 words of memory out of 5000000
- 28340 multiletter control sequences out of 15000+600000
- 532906 words of font info for 51 fonts, out of 8000000 for 9000
+ 28325 multiletter control sequences out of 15000+600000
+ 532890 words of font info for 49 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  42i,8n,67p,1047b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on kowal_resume.xdv (1 page, 35012 bytes).
+Output written on kowal_resume.xdv (1 page, 35216 bytes).
