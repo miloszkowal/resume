@@ -21,7 +21,7 @@ July 2018 - July 2019
 #### Software Engineer
 * Implemented and maintained four APIs in Python, providing machine learning services in fuzzy matching, content summarization, thematic tagging, and written content review. Was deployed into production with over 2,000 research writers.
 * Wrote an automated test library for above APIs using PyTest and Jenkins, eliminating the need for manual qualitative testing. Reports were generated in Allure.
-* Designed high-level logic and process flow for caching and storing machine-generated text content, reducing retrieval time from _O(n)_ time to _O(1)_ time.
+* Designed high-level logic and process flow for caching and storing machine-generated text content, significantly reducing retrieval time.
 
 ### Trinity College Information Technology Services
 September 2014 - May 2018
