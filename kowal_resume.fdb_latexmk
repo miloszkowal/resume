@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1581633445 "kowal_resume.xdv" "kowal_resume.pdf" "kowal_resume" 1581633445
-  "kowal_resume.xdv" 1581633445 37688 c2e0e6ca8b233af8b6ea00eda05e1c73 "xelatex"
+["xdvipdfmx"] 1581727246 "kowal_resume.xdv" "kowal_resume.pdf" "kowal_resume" 1581727246
+  "kowal_resume.xdv" 1581727246 40920 1a23f8a2f5366d12251b9e87852e2cc4 "xelatex"
   (generated)
   "kowal_resume.pdf"
-["xelatex"] 1581633443 "kowal_resume.tex" "kowal_resume.xdv" "kowal_resume" 1581633445
-  "/dev/null" 1581633421 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1581727244 "kowal_resume.tex" "kowal_resume.xdv" "kowal_resume" 1581727246
+  "/dev/null" 1581727218 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -73,12 +73,12 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1557342089 3751069 3e95e8a30a2d43fc44f2c90c78c41394 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "kowal_resume.aux" 1581633445 704 8c01c31a5f76d83d591fa3d42f25770e "xelatex"
-  "kowal_resume.out" 1581633445 468 3fc595abf953640537cff7fc79eb016e "xelatex"
-  "kowal_resume.tex" 1581633424 10370 92223d9c7b57d9b032629b7cb1b37f4f ""
+  "kowal_resume.aux" 1581727246 704 8c01c31a5f76d83d591fa3d42f25770e "xelatex"
+  "kowal_resume.out" 1581727246 468 3fc595abf953640537cff7fc79eb016e "xelatex"
+  "kowal_resume.tex" 1581727242 10806 e23522113d890b18f9857e60422bb761 ""
   "preamble.tex" 1572454808 9019 e9c17f6890dfe7824a208d2b0a9e4d51 ""
   (generated)
   "kowal_resume.out"
-  "kowal_resume.aux"
   "kowal_resume.log"
+  "kowal_resume.aux"
   "kowal_resume.xdv"
