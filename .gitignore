@@ -1,10 +1,6 @@
 
-preamble.aux
-preamble.fdb_latexmk
-preamble.fls
-preamble.log
-resume.fdb_latexmk
-resume.fls
-resume.log
-resume.synctex.gz
-resume.xdv
+*.aux
+*.log
+*.fls
+*.out
+*.gz
