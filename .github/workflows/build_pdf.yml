@@ -31,3 +31,4 @@ jobs:
             reference_sheet.tex
           # The LaTeX engine to be invoked
           compiler: latexmk
+          args: -xelatex -file-line-error -interaction=nonstopmode
