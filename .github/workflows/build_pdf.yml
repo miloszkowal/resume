@@ -26,9 +26,11 @@ jobs:
         with:
           # The root LaTeX file to be compiled
           root_file: |
-            preamble.tex
             kowal_resume.tex
-            reference_sheet.tex
           # The LaTeX engine to be invoked
           compiler: latexmk
           args: -xelatex -file-line-error -interaction=nonstopmode
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: kowal_resume.pdf
