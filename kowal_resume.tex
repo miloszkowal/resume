@@ -22,24 +22,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \documentclass[a4paper,10pt,oneside]{article}
-\documentclass[letterpaper,10pt,oneside]{article}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% TYPESETTING OPTIONS.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\TypesetInNonStopMode}{1}
-\newcommand{\TypesetInDraftMode}{0}
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PREAMBLE.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\input{preamble.tex}
-
 % CV Info (to be customized).
 \newcommand{\CVAuthor}{Milosz Kowal}
-\newcommand{\CVTitle}{Milosz Kowal Resume}
+\newcommand{\CVTitle}{Milosz Kowal's Resume}
 \newcommand{\CVNote}{Resume compiled on {\today}}
 \newcommand{\CVWebpage}{https://miloszkowal.com}
 
@@ -51,7 +42,6 @@ pdfsubject={\CVWebpage},
 pdfcreator={XeLaTeX},
 pdfproducer={},
 pdfkeywords={},
-pdfpagemode={},
 bookmarks=true,
 unicode=true,
 bookmarksopen=true,
@@ -62,6 +52,7 @@ hidelinks,
 breaklinks}
 
 % Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
 \newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,11 +65,9 @@ breaklinks}
 % TITLE BLOCK %
 %%%%%%%%%%%%%%%
 
-\title{\CVAuthor}
+\Title{\CVAuthor}
 
-\begin{subtitle}
-%\href{https://goo.gl/maps/nvgKtniZiYF2}
-%{558A Kingston Ave, Apt 4A, Brooklyn, NY 11203}
+\begin{SubTitle}
 \par
 \href{mailto:me@miloszkowal.com}
 {me@miloszkowal.com}
@@ -87,33 +76,34 @@ breaklinks}
 \,\SubBulletSymbol\,
 \href{\CVWebpage}
 {miloszkowal.com}
-\end{subtitle}
+\end{SubTitle}
 
-\begin{body}
+\begin{Body}
 
 %%%%%%%%%%%%
 %% SKILLS %%
 %%%%%%%%%%%%
 
-\section
+\Section
 {Skills}
 {Skills}
 {PDF:Skills}
 
-Programming: Python, R, PHP, mySQL, HTML5, CSS3, PostgreSQL, Matlab, Mathematica, Git, \LaTeX \hfill\break
+\Entry
+Programming: Python, R, PHP, mySQL, HTML5, CSS3, PostgreSQL, Matlab, Mathematica, Git, \LaTeX{} \hfill\break{}
 Certifications: Bloomberg Market Concepts, Google Analytics
-
 
 %%%%%%%%%%%%%%%
 %% EDUCATION %%
 %%%%%%%%%%%%%%%
 
-\noindent\hrulefill
-\section
+\hrulefill
+\Section
 {Education}
 {Education}
 {PDF:Education}
 
+\Entry
 \href{http://www.trincoll.edu}
 {\textbf{Trinity College}},
 Hartford, Connecticut
@@ -121,77 +111,81 @@ Hartford, Connecticut
 \DatestampYMD{2014}{08}{01} --
 \DatestampYMD{2018}{05}{20}
 
-\GapNoBreak
+\Gap
 \BulletItem
 Bachelor of Science (B.S.) in
 Mathematics and Theater, GPA: 3.7/4.0
-\begin{detail}
+\begin{Detail}
 \SubBulletItem
 Coursework: Linear Algebra, Abstract Algebra, Analysis, Differential Equations, Chaos Theory
 \SubBulletItem
 Honors and Awards: \textit{cum laude}, Pi Mu Epsilon Inductee (Spring 2018)
-\end{detail}
+\end{Detail}
 
-\GapNoBreak
+\BigGap
+\Entry
 \href{http://www.imsa.edu}
 {\textbf{Illinois Mathematics and Science Academy}},
 Aurora, Illinois
 \hfill
 \DatestampYMD{2011}{09}{01} --
 \DatestampYMD{2014}{05}{01}
-\GapNoBreak
+\Gap
 \BulletItem
 Attended second-highest rated public high school in the United States.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% OTHER WORK EXPERIENCE %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%
 
-\noindent\hrulefill
-\section
+\hrulefill
+\Section
 {Selected\newline
 Experience}
 {Other Work Experience}
 {PDF:WorkExperience}
 
-\href{}
+\Entry
+\href{https://metacore.tech/}
 {\textbf{Metacore Technologies}},
 New York City, New York
 \hfill
 \DatestampYMD{2020}{01}{16} --
 Present
 
-\GapNoBreak
+\Gap
 \BulletItem
 DevOps Engineer
-\begin{detail}
+\begin{Detail}
 \SubBulletItem
 Construct and maintain internal tools, primarily in Python, to increase developer efficiency. Examples include an automated employee onboarding script.
 \SubBulletItem
 Develop Helm Charts and Kubernetes clusters for clients, ensuring zero-downtime upgrades, phased rollouts, and high availability across all clusters.
 \SubBulletItem
 Optimize and add to existing CI/CD pipeline (GitHub, CircleCI, Docker, Kubernetes), reducing build time from code check-in to production deployment.
-\end{detail}
+\end{Detail}
 
-\BigGapNoBreak
-\href{}
-{\textbf{HSBC Corporation}},
-New York City, New York
-\hfill
-\DatestampYMD{2020}{01}{16} --
-Present
+% \BigGap
+% \Entry
+% \href{https://www.hsbc.com/}
+% {\textbf{HSBC Corporation}},
+% New York City, New York
+% \hfill
+% \DatestampYMD{2020}{01}{16} --
+% \DatestampYMD{2020}{05}{15}
 
-\GapNoBreak
-\BulletItem
-Senior Business Analyst
-\begin{detail}
-\SubBulletItem
-Provide automated testing solutions for datasets, ensuring compliance with the Basel III Reforms.
-\SubBulletItem
-Draft requirements for new features, as well as improvements for existing features in the data operations pipeline.
-\end{detail}
+% \Gap
+% \BulletItem
+% Senior Business Analyst
+% \begin{Detail}
+% \SubBulletItem
+% Provide automated testing solutions for datasets, ensuring compliance with the Basel III Reforms.
+% \SubBulletItem
+% Draft requirements for new features, as well as improvements for existing features in the data operations pipeline.
+% \end{Detail}
 
-\BigGapNoBreak
+\BigGap
+\Entry
 \href{http://www.moodys.com}
 {\textbf{Moody's Corporation}},
 New York City, New York
@@ -199,43 +193,43 @@ New York City, New York
 \DatestampYMD{2018}{07}{30} --
 \DatestampYMD{2019}{07}{29}
 
-\GapNoBreak
+\Gap
 \BulletItem
 Software Engineer
-\begin{detail}
+\begin{Detail}
 \SubBulletItem
 Implemented and maintained four APIs in Python, providing machine learning services in fuzzy matching, content summarization, thematic tagging, and written content review. Was deployed into production with over 2,000 research writers.
 \SubBulletItem
 Implemented an automated test library for above APIs using PyTest and Jenkins, eliminating the need for manual qualitative testing. Reports were generated in Allure.
 \SubBulletItem
 Designed high-level logic and process flow for caching and storing machine-generated text content using Oracle SQL, dramatically reducing retrieval time for offshore clients.
-\end{detail}
+\end{Detail}
 
-\begin{comment}
-\BigGapNoBreak
-{\textbf{Trinity College Office of Enrollment}},
-Hartford, Connecticut
-\hfill
-\DatestampYMD{2017}{08}{21} --
-\DatestampYMD{2018}{05}{18}
+% \BigGap
+% \Entry
+% {\textbf{Trinity College Office of Enrollment}},
+% Hartford, Connecticut
+% \hfill
+% \DatestampYMD{2017}{08}{21} --
+% \DatestampYMD{2018}{05}{18}
 
 
-\GapNoBreak
-\BulletItem
-Student Admissions Associate
-\begin{detail}
-\SubBulletItem
-Conducted interviews with over 50 high school students, evaluating their standing as applicants, which resulted in 11 admitted students for the Class of 2022.
-\SubBulletItem
-Submitted written evaluations on each applicant to be added to applicant’s file.
-\SubBulletItem
-Led weekly group information sessions for prospective students, families, and admissions visitors.
-\SubBulletItem
-Participated in on-campus recruitment events, such as panels, special programs, and other projects.
-\end{detail}
-\end{comment}
+% \GapNoBreak
+% \BulletItem
+% Student Admissions Associate
+% \begin{Detail}
+% \SubBulletItem
+% Conducted interviews with over 50 high school students, evaluating their standing as applicants, which resulted in 11 admitted students for the Class of 2022.
+% \SubBulletItem
+% Submitted written evaluations on each applicant to be added to applicant’s file.
+% \SubBulletItem
+% Led weekly group information sessions for prospective students, families, and admissions visitors.
+% \SubBulletItem
+% Participated in on-campus recruitment events, such as panels, special programs, and other projects.
+% \end{Detail}
 
-\BigGapNoBreak
+\BigGap
+\Entry
 \href{http://www.trincoll.edu}
 {\textbf{Trinity College Information Technology Services}},
 Hartford, Connecticut
@@ -243,10 +237,10 @@ Hartford, Connecticut
 \DatestampYMD{2014}{09}{15} --
 \DatestampYMD{2018}{05}{11}
 
-\GapNoBreak
+\Gap
 \BulletItem
 Head Solutions Engineer
-\begin{detail}
+\begin{Detail}
 \SubBulletItem
 Trained and evaluated over 15 new employees, analyzing performance trends using Crystal Reports.
 \SubBulletItem
@@ -255,51 +249,49 @@ Provided support on over 4,900 service requests, logging all details in SolarWin
 Drafted Bash script to automate process within network infrastructure, resulting in substantial decreases in service requests related to that issue.
 \SubBulletItem
 Cooperated with architectural design team to create new solutions for user body of over 2,200 students, faculty, and staff.
-\end{detail}
+\end{Detail}
 
-\begin{comment}
-\BigGapNoBreak
-{\textbf{Navier, Inc.}},
-Chicago, Illinois
-\hfill
-\DatestampYMD{2012}{06}{15} --
-\DatestampYMD{2013}{12}{01}
+% \BigGap
+% \Entry
+% {\textbf{Navier, Inc.}},
+% Chicago, Illinois
+% \hfill
+% \DatestampYMD{2012}{06}{15} --
+% \DatestampYMD{2013}{12}{01}
 
-\GapNoBreak
-\BulletItem
-Chief UI/UX Design Engineer
-\begin{detail}
-\SubBulletItem
-Created platform enabling web developers to interact with consumers to improve prototype versions of apps.
-\SubBulletItem
-Leveraged AngularJS, CSS3, and HTML5 in constructing front-end interface for customer-facing products.
-\end{detail}
-\end{comment}
+% \GapNoBreak
+% \BulletItem
+% Chief UI/UX Design Engineer
+% \begin{detail}
+% \SubBulletItem
+% Created platform enabling web developers to interact with consumers to improve prototype versions of apps.
+% \SubBulletItem
+% Leveraged AngularJS, CSS3, and HTML5 in constructing front-end interface for customer-facing products.
+% \end{Detail}
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %% SELECTED PROJECTS %%
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\noindent\hrulefill
-\section
+\hrulefill
+\Section
 {Selected Projects}
 {Selected Projects}
 {PDF:Selected Projects}
 
+\Entry
 \href{https://github.com/miloszkowal/PyMessage}
 {\textbf{PyMessage}} | NLTK, Pandas, SQLite, Tableau
 \hfill
-
-\GapNoBreak
+\Gap
 Python and NLTK library for sentiment analysis of arbitrary strings of characters, pulled from over 200K text messages stored in a SQLite database locally on macOS. Publishes results in CSV format for ingestion into Tableau and other visualization programs.
 
-\BigGapNoBreak
-
+\BigGap
+\Entry
 \href{https://github.com/miloszkowal/seshat}
 {\textbf{Seshat}} | Flask, Bootstrap, PostgreSQL, ElasticSearch, Heroku
 \hfill
-
-\GapNoBreak
+\Gap
 Full-stack application that allows users to create personalized accounts and add books they have read. Provides statistics on book readership and stores all data in a PostgreSQL database.
 
 % \href{http://commons.trincoll.edu/tcsp}
@@ -312,45 +304,42 @@ Full-stack application that allows users to create personalized accounts and add
 % \GapNoBreak
 % \BulletItem
 % Founder, Chief Executive Officer
-% \begin{detail}
+% \begin{Detail}
 % \SubBulletItem
 % Employed 20 students, establishing TCSP as a premier employment opportunity for the Trinity community.
 % \SubBulletItem
 % Provided photography and event coverage services for over 70 events on campus, providing deliverables for each event within 24 hours.
 % \SubBulletItem
 % Managed social media accounts using Hootsuite, Mailchimp, and Later, with collective following of over 200.
-% \end{detail}
+% \end{Detail}
 
-\begin{comment}
+% ABOUT TIME WITH TRIPOD
 
-%ABOUT TIME WITH TRIPOD
+% \href{http://commons.trincoll.edu/tripod}
+% {\textbf{Trinity Tripod}},
+% Trinity College
+% \hfill
+% \DatestampYMD{2017}{08}{01} --
+% \DatestampYMD{2018}{01}{01}
 
-\href{http://commons.trincoll.edu/tripod}
-{\textbf{Trinity Tripod}},
-Trinity College
-\hfill
-\DatestampYMD{2017}{08}{01} --
-\DatestampYMD{2018}{01}{01}
-
-\GapNoBreak
-\BulletItem
-Photography Editor
-\begin{detail}
-\SubBulletItem
-Collaborated with Trinity College Student Photographers to provide photographic content for weekly paper.
-\SubBulletItem
-Delivered hundreds of images for a variety of different stories, including custom stock imagery.
-\SubBulletItem
-Developed automated system for photo captioning using EXIF data, extracted using Adobe InDesign, resulting in 75\% time decrease when formatting images.
-\end{detail}
-\end{comment}
+% \GapNoBreak
+% \BulletItem
+% Photography Editor
+% \begin{Detail}
+% \SubBulletItem
+% Collaborated with Trinity College Student Photographers to provide photographic content for weekly paper.
+% \SubBulletItem
+% Delivered hundreds of images for a variety of different stories, including custom stock imagery.
+% \SubBulletItem
+% Developed automated system for photo captioning using EXIF data, extracted using Adobe InDesign, resulting in 75\% time decrease when formatting images.
+% \end{Detail}
 
 %%%%%%%%%%%%%%%
 %% LANGUAGES %%
 %%%%%%%%%%%%%%%
 
 \noindent\hrulefill
-\section
+\Section
 {Languages}
 {Languages}
 {PDF:Languages}
@@ -361,7 +350,7 @@ English (fluent), Polish (native), French (intermediate).
 %% INTERESTS %%
 %%%%%%%%%%%%%%%
 
-\section
+\Section
 {Interests}
 {Interests}
 {PDF:Interests}
@@ -372,24 +361,20 @@ Editorial photography, works of Fyodor Dostoevsky, podcast production, candle ma
 %% REFERENCES %%
 %%%%%%%%%%%%%%%%
 
-\begin{comment}
-\section
-{References}
-{References}
-{PDF:References}
+% \Section
+% {References}
+% {References}
+% {PDF:References}
 
-Available upon request.
-\end{comment}
-\end{body}
+% Available upon request.
+\end{Body}
 
 %%%%%%%%%%%
 % CV NOTE %
 %%%%%%%%%%%
 
-\begin{flushright}
-\UseNoteFont
-%[\textit{\CVNote}]
-\hspace{2.0mm}\null
-\end{flushright}
-%\label{LastPage}
+\BigGap
+\UseNoteFont%
+\null\hfill%
+
 \end{document}
