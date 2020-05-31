@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: kowal_resume.pdf
-          path: home/runner/work/resume/kowal_resume.pdf
+          path: ./kowal_resume.pdf
