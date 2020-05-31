@@ -30,7 +30,7 @@ jobs:
           # The LaTeX engine to be invoked
           compiler: latexmk
           args: -xelatex -file-line-error -interaction=nonstopmode
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: kowal_resume.pdf
+      # - name: Upload Artifact
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: kowal_resume.pdf
