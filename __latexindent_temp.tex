@@ -1,0 +1,201 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TeX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \documentclass[a4paper,10pt,oneside]{article}
+\documentclass[letterpaper,10pt,oneside]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TYPESETTING OPTIONS.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\TypesetInNonStopMode}{1}
+\newcommand{\TypesetInDraftMode}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Milosz Kowal}
+\newcommand{\CVTitle}{Milosz Kowal Resume}
+\newcommand{\CVNote}{Resume compiled on {\today}}
+\newcommand{\CVWebpage}{https://miloszkowal.com}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+bookmarks=true,
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{\CVAuthor}
+
+\begin{subtitle}
+\begin{comment}
+\end{comment}
+\href{mailto:milosz.j.kowal@gmail.com}
+{milosz.j.kowal@gmail.com}
+\,\SubBulletSymbol\,
++1\,(630)\,447-0764
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{miloszkowal.com}
+\end{subtitle}
+
+\begin{body}
+
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\section
+{Professional\newline References}
+{References}
+{PDF:References}
+
+{\textbf{Pavan Srivastava}}
+\hfill
+\GapNoBreak
+\BulletItem
+Associate Vice President, Software Engineering, Moody's Corporation
+\BulletItem
+Email: \href{mailto:pavan.srivastava@moodys.com}{pavan.srivastava@moodys.com}
+\BulletItem
+Mr. Srivastava was my supervisor on the CMS Product Team at Moody's. He is intimately familiar with the projects I am involved in and can speak to my technical proficiency, particularly with natural language processing in Python and automation testing using PyTest and Jenkins.
+
+\BigGapNoBreak
+
+{\textbf{Sophie H. Howard}}
+\hfill
+\GapNoBreak
+\BulletItem
+Assistant Director of Admissions, Office of Enrollment and Student Success, Trinity College
+\BulletItem
+Email: \href{mailto:sophie.howard@trincoll.edu}{sophie.howard@trincoll.edu}
+\BulletItem
+Phone: (860) 297-2180
+\BulletItem
+Ms. Howard was my direct supervisor in the Office of Enrollment and Student Success. She can speak to my public speaking skills, my writing, and evaluative abilities.
+
+\BigGapNoBreak
+
+{\textbf{Ann Marie Krupski}}
+\hfill
+\GapNoBreak
+\BulletItem
+Director of Constituency Services, Trinity College
+\BulletItem
+Email: \href{mailto:annmarie.krupski@trincoll.edu}{annmarie.krupski@trincoll.edu}
+\BulletItem
+Phone: (860) 297-2181
+\BulletItem
+Ms. Krupski was my direct supervisor when working in the IT Department at Trinity College. She can speak to my technical and written abilities, particularly with troubleshooting, debugging, and providing automated solutions to common technical problems facing the student body.
+
+\BigGapNoBreak
+
+{\textbf{Professor Per Sebastian Skardal, Ph.D.}}
+\hfill
+\GapNoBreak
+\BulletItem
+Assistant Professor, Department of Mathematics, Trinity College
+\BulletItem
+Email: \href{mailto:persebastian.skardal@trincoll.edu}{persebastian.skardal@trincoll.edu}
+\BulletItem
+Phone: (860) 297-2299
+\BulletItem
+Professor Skardal and I conducted an independent study in dynamical systems and chaos theory. He can speak to my analytic abilities and my experience with Matlab.
+
+\BigGapNoBreak
+
+{\textbf{Sarah Lucas}}
+\hfill
+\GapNoBreak
+\BulletItem
+Assistant Director, Office of Student Activities, Involvement \& Leadership, Trinity College
+\BulletItem
+Email: \href{mailto:sarah.lucas@trincoll.edu}{sarah.lucas@trincoll.edu}
+\BulletItem
+Phone: (860) 297-4187
+\BulletItem
+Ms. Lucas and I have worked on establishing and developing the Trinity College Student Photographers from a fledgling club to a bustling student-run organization. She can speak to my management and leadership skills.
+
+
+\begin{comment}
+\noindent\hrulefill
+\section
+{Personal\newline References}
+{References}
+{PDF:References}
+
+{\textbf{Christopher Reader}}
+\hfill
+\GapNoBreak
+\BulletItem
+Self-Employed Photographer
+\BulletItem
+Email: \href{mailto:hopelessdfilms@gmail.com}{hopelessdfilms@gmail.com}
+\BulletItem
+Phone: (630) 333-3797
+\BulletItem
+Mr. Reader has served as a mentor and photography coach for many years. He and I have worked at the Illinois Mathematics and Science Academy together to expand access to multimedia resources for all students. He can speak to my entrepreneurial drive and my technology skills.
+\end{comment}
+\end{body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\begin{flushright}
+\UseNoteFont
+%[\textit{\CVNote}]
+\hspace{2.0mm}\null
+\end{flushright}
+%\label{LastPage}
+\end{document}
