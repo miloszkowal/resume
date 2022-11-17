@@ -28,6 +28,7 @@ jobs:
           # The root LaTeX file to be compiled
           root_file: |
             kowal_resume.tex
+            kowal_cv.tex
           # The LaTeX engine to be invoked
           compiler: latexmk
           args: -xelatex -file-line-error -interaction=nonstopmode
