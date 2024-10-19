@@ -7,8 +7,6 @@ name: LaTeX compilation
 on:
   workflow_dispatch:        
   push:
-    branches:
-      - master
   pull_request:
     branches: [ master ]
 
@@ -36,3 +34,4 @@ jobs:
         with:
           name: kowal_resume.pdf
           path: ./kowal_resume.pdf
+
